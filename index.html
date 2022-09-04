@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+             tailwind.config = {
+          theme: {
+             screens: {
+                sm: '480px',
+                md: '768px',
+                lg: '1040px',
+                xl: '1280px',
+              '2xl': '1380px',
+              '3xl': '1440px',
+             },
+            extend: {
+              colors: {
+                Taupe: '#ad9970',
+                Taupe_01: '#ac9870',
+                gray_01: '#767676',
+                gray_02: '#7d7f80',
+                gray_light: '#f8f9fa',
+              }
+            },
+            fontFamily: {
+                mons: ['Montserrat Alternates']
+            },
+            container: {
+             padding: {
+                   DEFAULT: '1rem',
+                   sm: '2rem',
+                   lg: '4rem',
+                   xl: '5rem',
+      },
+    },
+           lineHeight: {
+             'extra-loose': '2.5',
+             '12': '3rem',
+      }
+          }
+        }
+      </script>
+
+    </script>
+</head>
+<body class="w-full h-full ">
+        <nav class="bg-white relative" style="position:relative">
+          <div class="border-gray border-b">
+                <div class="w-10/12 xl:w-7/12 mx-auto hidden lg:flex flex-row justify-between py-1">
+                        <a href="" class="flex flex-row items-center"><i class="fa-solid fa-location-dot mr-2"></i>En<img class="w-3 text-mygrey mx-1" src="./Images/carret-down.svg" alt="svg"></a>
+                        <a href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+          </div>
+
+          <div class="shadow py-2 sticky top-0 lg:py-6">
+              <ul class="hidden w-10/12 xl:w-9/12  2xl:w-7/12 mx-auto lg:flex flex-row justify-between text-black">
+                <li class="text-4xl font-extrabold">RØDE</li>
+                <li>
+                    <ul class="flex flex-row justify-between text-black">
+                        <li class="py-2 px-6">PRODUCTS</li>
+                        <li class="py-2 px-6">USER GUIDES</li>
+                        <li class="py-2 px-6">SOLUTIONS</li>
+                        <li class="py-2 px-6">APPAREL</li>
+                        <li class="py-2 px-6">SUPPORT</li>
+                    </ul>
+                </li>
+                <li><i class="fa-solid fa-magnifying-glass text-3xl"></i></li>
+              </ul>
+
+              <ul class="w-full mx-auto flex flex-row justify-between text-black lg:hidden">
+                 <li class="flex flex-row justify-between items-center">
+                       <i class="fa-solid fa-bars px-8"></i>    
+                       <a href="" class="flex flex-row items-center"><i class="fa-solid fa-location-dot mr-2"></i>En<img class="w-3 text-mygrey mx-1" src="./Images/carret-down.svg" alt="svg"></a>
+                </li>
+                <li class="text-4xl font-extrabold">RØDE</li>
+                 <li>
+                    <i class="fa-solid fa-magnifying-glass text-3xl px-8"></i>
+                 </li>
+              </ul>
+         </div>
+      </nav>
+    
+    <!-- Hero section -->
+      <div class="w-full h-full bg-no-repeat bg-cover relative">
+          <div class="w-10/12 xl:w-7/12 mx-auto flex flex-col lg:flex-row justify-end flex-wrap">
+            <div class="background-image absolute w-full h-full" style="left: 0px; background-repeat: no-repeat; background-position: center;background-image: url('Images/hero.jpg');">
+            </div>
+               <div class="w-full lg:w-1/2 flex flex-col justify-center items-center h-[700px] z-[1]">
+                    <img src="./Images/RODECasterProII_PL_PI_01.svg" class="mb-4">
+                    <p class="text-white py-4 text-2xl font-normal text-center">The Revolution Is Here</p>
+                    <p class="text-gray_01 text-center">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.</p>
+                    <div class="mt-12 flex flex-col sm:flex-row">
+                        <a class="text-Taupe text-base font-medium px-3 py-1.5">LEARN MORE<i class="fa-solid fa-caret-right ml-2"></i></a>
+                        <a class="bg-Taupe py-1.5 px-6 text-white font-medium rounded-3xl">BUY NOW</a>                    
+                    </div>  
+                </div>
+         </div>
+      </div>
+
+      <div class="w-full h-full bg-no-repeat bg-cover relative">
+        <div class="w-10/12 xl:w-7/12 mx-auto flex flex-col lg:flex-row flex-wrap">
+          <div class="background-image absolute w-full h-full" style="left: 0px; background-repeat: no-repeat; background-position: center;background-image: url('Images/hero-2.jpg');">
+          </div>
+             <div class="w-full lg:w-1/2 flex flex-col justify-center items-center h-[650px] z-[1]">
+                  <img src="./Images/NTH-100_PL_P_RGB_01.svg" class="mb-4">
+                  <p class="text-black py-4 text-2xl font-normal text-center">Your Search For The Perfect Headphones Is Over</p>
+                  <p class="text-gray_01 text-center">Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.</p>
+                  <div class="mt-12 flex flex-col sm:flex-row">
+                      <a class="text-Taupe text-base font-medium px-3 py-1.5">LEARN MORE<i class="fa-solid fa-caret-right ml-2"></i></a>
+                      <a class="bg-Taupe py-1.5 px-6 text-white font-medium rounded-3xl">BUY NOW</a>                    
+                  </div>  
+              </div>
+        </div>
+    </div>
+
+    <div class="w-full h-full bg-no-repeat bg-cover relative">
+        <div class="w-10/12 xl:w-7/12 mx-auto flex flex-col lg:flex-row justify-end flex-wrap">
+          <div class="background-image absolute w-full h-full" style="left: 0px; background-repeat: no-repeat; background-position: center;background-image: url('Images/hero-3.jpg');">
+          </div>
+             <div class="w-full lg:w-1/2 flex flex-col justify-center items-center h-[700px] z-[1]">
+                  <img src="./Images/NT-USB_PL_P_01.svg" class="mb-4">
+                  <p class="text-black py-4 text-2xl font-normal text-center">Studio-Quality Recording, Made Simple</p>
+                  <p class="text-gray_01 text-center">The NT-USB is a studio-quality USB condenser microphone that offers impeccable audio, elegant looks and premium features, all in an easy-to-use form factor, the NT-USB will have you sounding like a pro in seconds.</p>
+                  <div class="mt-12 flex flex-col sm:flex-row">
+                      <a class="text-Taupe text-base font-medium px-3 py-1.5">LEARN MORE<i class="fa-solid fa-caret-right ml-2"></i></a>
+                      <a class="bg-Taupe py-1.5 px-6 text-white font-medium rounded-3xl">BUY NOW</a>                    
+                  </div>  
+              </div>
+       </div>
+    </div>
+    
+     <!-- Explore The RØDE Range -->
+     <div class="my-8 w-10/12 mx-auto xl:w-9/12">
+        <h2 class="mb-0 text-3xl md:text-4xl text-gray_01 font-semibold text-center">Explore The RØDE Range</h2>
+    </div>
+
+    <div class="relative mx-auto my-8 w-10/12 xl:w-7/12">
+       <img src="./Images/microphones-module.png" class="w-full h-[120px]  md:h-[180px] lg:h-[250px] xl:h-[300px]">
+        <h1 class="text-3xl md:text-5xl lg:text-7xl font-medium absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">MICROPHONES</h1>
+    </div> 
+
+    <div class="relative mx-auto my-8 w-10/12 xl:w-7/12">
+        <img src="./Images/interfaces-module.jpg" class="w-full h-[120px]  md:h-[180px] lg:h-[250px] xl:h-[300px]">
+         <h1 class="text-3xl md:text-5xl lg:text-7xl font-medium absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-fit">INTERFACE & MIXERS</h1>
+     </div>
+
+     <div class="relative mx-auto my-8 w-10/12 xl:w-7/12">
+        <img src="./Images/software-module.png" class="w-full h-[120px]  md:h-[180px] lg:h-[250px] xl:h-[300px]">
+         <h1 class="text-3xl md:text-5xl lg:text-7xl font-medium absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">SOFTWARE</h1>
+     </div>
+
+     <div class="relative mx-auto my-8 w-10/12 xl:w-7/12">
+        <img src="./Images/accessories-module.png" class="w-full h-[120px]  md:h-[180px] lg:h-[250px] xl:h-[300px]">
+         <h1 class="text-3xl md:text-5xl lg:text-7xl font-medium absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">ACCESSORIES</h1>
+     </div>
+
+     <div class="my-8 w-10/12 mx-auto xl:w-9/12">
+        <h2 class="mb-0 text-3xl md:text-4xl text-Taupe font-semibold text-center">Latest From The RØDE Blog</h2>
+    </div>
+
+    <!-- Latest From The RØDE Blog -->
+    <div class="bg-gray_light py-24">
+        <div class="w-10/12 grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto xl:w-7/12">
+            <div class="flex flex-col bg-white">
+                 <h1 class="text-black leading-[33px] text-[26px] font-normal text-center mb-6  ">XLR vs USB Microphones: Which is Best for You?</h1>
+                 <img src="./Images/thumbnail2.jpg" alt="microphones">
+                 <p class="text-center text-black my-4 p-4 text-base">We explore the differences between XLR and USB microphones, the advantages of each and which type is best suited to your needs.</p>
+                 <a class="bg-Taupe flex font-medium px-6 py-1.5 rounded-3xl self-center text-white mb-8">LEARN MORE</a>
+            </div> 
+       
+            <div class="flex flex-col bg-white">
+                <h1 class="text-black leading-[33px] text-[26px] font-normal text-center">The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones</h1>
+                <img src="./Images/thumbnail6.jpeg" alt="microphones">
+                <p class="text-center text-black my-4 p-4 text-base">We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.</p>
+                <a class="bg-Taupe flex font-medium px-6 py-1.5 rounded-3xl self-center text-white mb-8">LEARN MORE</a>
+           </div> 
+
+           <div class="flex flex-col bg-white">
+                 <h1 class="text-black leading-[33px] text-[26px] font-normal text-center mb-3">What is a Condenser Microphone and When to Use One</h1>
+                 <img src="./Images/thumbnail.jpg" alt="microphones">
+                 <p class="text-center text-black my-4 p-4 text-base">Learn more about the different types of condenser mics, how they work and the best applications for using them.</p>
+                 <a class="bg-Taupe flex font-medium px-6 py-1.5 rounded-3xl self-center text-white mb-8">LEARN MORE</a>
+            </div> 
+
+            <div class="flex flex-col bg-white">
+                <h1 class="text-black leading-[33px] text-[26px] font-normal text-center mb-3">Firmware Version 1.0.7 for the RØDECaster Pro II is Available Now</h1>
+                <img src="./Images/thumbnail4.jpg" alt="microphones">
+                <p class="text-center text-black my-4 p-4 text-base">Firmware version 1.0.7 includes key feature additions, such as custom routing for USB and Bluetooth outputs, and more.</p>
+                <a class="bg-Taupe flex font-medium px-6 py-1.5 rounded-3xl self-center text-white mb-8">LEARN MORE</a>
+           </div> 
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-24">
+     <hr class="bg-gray_light">   
+     <div class="mx-auto w-10/12 py-3 xl:py-16 md:w-9/12 xl:w-7/12">
+       <div class="flex flex-col justify-between space-y-10 lg:flex-row lg:space-y-0">
+          <div class="w-full flex justify-center lg:flex-none lg:w-1/6 lg:mr-4">
+            <img src="./Images/RODE_logo_142x85_desktop_light_mode.svg" class=" self-center">
+          </div>
+          <div class="w-full lg:w-3/6 flex flex-col justify-center items-center sm:flex-row md:justify-between text-base lg:mr-4">
+            <div class="">
+                <h4 class="font-semibold mb-4">Products</h4> 
+                <ul class="font-normal">
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Microphones</a></li> 
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Headphones</a></li>
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Interfaces and Mixers</a></li> 
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Accessories</a></li> 
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Software</a></li> 
+                    <li class="mb-4 text-gray_01"><a href=""link">Apparel</a></li>
+                </ul>
+            </div>
+
+            <div class="">
+                <h4 class="font-semibold mb-4">Support</h4> 
+                <ul>
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Contact RED</a></li> 
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Service Centre</a></li> 
+                    <li class="mb-4 text-gray_01"><a href=""link">Warranty</a></li> 
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Where to Buy</a></li>
+                </ul>
+            </div>
+
+            <div class="">
+                <h4 class="font-semibold mb-4">Company</h4>
+                <ul>
+                    <li class="mb-4 text-gray_01"><a href="" class="link">About RED</a></li> 
+                    <li class="mb-4 text-gray_01"><a href="" class="link">News and Info</a></li> 
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Job Opportunities</a></li>
+                </ul> 
+                <h4 class="font-semibold mb-4">Account</h4> 
+                <ul>
+                    <li class="mb-4 text-gray_01"><a href="" class="link">Manage your Account</a></li> 
+                    <li class="mb-4 text-gray_01"><a href=""link">Create Account</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="w-full lg:w-2/6 flex flex-col items-center lg:items-end">
+            <h2 class="text-2xl font-medium text-center lg:text-right mb-8">Subscribe to our latest news and offers</h2>
+            <a class="bg-Taupe text-center font-medium px-6 py-1.5 rounded-3xl text-white mb-8 w-2/5">Sign Up</a>
+          </div>
+       </div>
+       <hr class="bg-gray_light my-4">
+       <div class="flex flex-col justify-between space-y-5 lg:flex-row pt-8 lg:space-y-0">
+           <div class="grid-cols-4 text-base text-center">© 2022 RØDE All Rights Reserved.</div>
+           <div class="flex justify-center text-xs">
+              <a href="https://rode.com/en/about/privacy-policy" class="mr-3">Privacy Policy</a> 
+              <span>|</span> 
+              <a href="https://rode.com/en/about/terms-of-use" class="ml-3">Terms &amp; Conditions</a>
+           </div>
+           <div class="flex flex-row justify-between">
+            <a><i class="fa-brands fa-facebook text-Taupe text-2xl mr-6"></i></a>
+            <a><i class="fa-brands fa-twitter text-Taupe text-2xl mr-6"></i></a>
+            <a><i class="fa-brands fa-instagram text-Taupe text-2xl mr-6"></i></a>
+            <a><i class="fa-brands fa-youtube text-Taupe text-2xl mr-6"></i></a>
+            <a><i class="fa-brands fa-tiktok text-Taupe text-2xl mr-6"></i></a>
+           </div>
+       </div>
+     </div>   
+    </footer>
+</body>
+</body>
+</html>
