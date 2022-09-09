@@ -8,7 +8,7 @@
 > **Total Time:**<br>
 > 4.5 hours
 
->[Live Link:](https://63150ebd1693a9379d058e66--magenta-halva-64394a.netlify.app/)
+>[Live Link:](https://rode-ui-homepage-clone.netlify.app/)
 
 ![badge](https://img.shields.io/badge/Tailwind-CSS-blue)
 ![badge-2](https://img.shields.io/badge/RODE-CSS-lightgrey)
